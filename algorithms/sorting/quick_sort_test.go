@@ -17,7 +17,7 @@ func TestQuickSort(t *testing.T) {
 
 func ExampleQuickSort() {
 	slice := []int{6, 3, 8, 2, 1, 5}
-	result := MergeSort(slice)
+	result := QuickSort(slice)
 
 	fmt.Println(result)
 
